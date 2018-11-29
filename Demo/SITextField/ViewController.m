@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "SpecialInteractionTextField.h"
-#import "SpecialInteractionManager.h"
+#import <SpecialInteractionTextField.h>
+#import <SpecialInteractionTextField.h>
 #import <SDAutoLayout.h>
 
 #define KScreenWidth [[UIScreen mainScreen] bounds].size.width
@@ -228,7 +228,7 @@
 }
 
 - (void)send:(UIBarButtonItem *)sender {
-    NSLog(@"%@", [self.siManager checkAllKeyValues]);
+    NSLog(@"%@", [self.siManager getAllKeyValues]);
 }
 
 

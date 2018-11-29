@@ -61,18 +61,6 @@
     }
     return self.formDictionary;
 }
-    
-- (NSDictionary *)checkAllKeyValues {
-    for (SpecialInteractionTextField *siTextField in self.subviewArray) {
-        if (siTextField.tagName && siTextField.tagName.length > 0) {
-            [self.formDictionary setObject:siTextField.inputValue ? siTextField.inputValue : @"" forKey:siTextField.tagName];
-            if (siTextField.nonEmpty && (!siTextField.inputValue || siTextField.inputValue.length <= 0)) {
-                [siTextField inputNonconformityAnimation];
-            }
-        }
-    }
-    return self.formDictionary;
-}
 
 - (NSMutableArray<SpecialInteractionTextField *> *)subviewArray {
     if (!_subviewArray) {

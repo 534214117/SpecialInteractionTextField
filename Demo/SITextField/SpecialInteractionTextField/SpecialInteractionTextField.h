@@ -48,7 +48,6 @@ typedef NS_ENUM(NSInteger, ExpectedInputType) {
 @property (nonatomic, strong) SpecialInteractionTextField *nextSITextField;
 
 - (void)beFirstResponder;
-- (void)inputNonconformityAnimation;
 
 @end
 
