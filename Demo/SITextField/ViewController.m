@@ -228,7 +228,7 @@
 }
 
 - (void)send:(UIBarButtonItem *)sender {
-    NSLog(@"%@", [self.siManager getAllKeyValues]);
+    NSLog(@"%@", [self.siManager checkAllKeyValues]);
 }
 
 

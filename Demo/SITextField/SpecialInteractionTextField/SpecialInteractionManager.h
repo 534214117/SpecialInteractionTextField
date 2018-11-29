@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 //把所有的输入框添加到SpecialInteractionManager类后，再调用此方法
 - (void)manageReturnKeyTypeWithLastKeyType:(UIReturnKeyType)returnKeyType;
 - (void)resetAllValues;
+- (NSDictionary *)checkAllKeyValues;
 - (NSDictionary *)getAllKeyValues;
 
 @end
