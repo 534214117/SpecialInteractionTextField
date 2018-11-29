@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042DE2C8219E908900DCB8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DE2C7219E908900DCB8F8 /* AppDelegate.m */; };
+		042DE2CB219E908900DCB8F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DE2CA219E908900DCB8F8 /* ViewController.m */; };
+		042DE2D0219E908C00DCB8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DE2CF219E908C00DCB8F8 /* Assets.xcassets */; };
+		042DE2D3219E908C00DCB8F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DE2D1219E908C00DCB8F8 /* LaunchScreen.storyboard */; };
+		042DE2D6219E908C00DCB8F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DE2D5219E908C00DCB8F8 /* main.m */; };
+		042DE2DF219E90CE00DCB8F8 /* SpecialInteractionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DE2DE219E90CE00DCB8F8 /* SpecialInteractionTextField.m */; };
+		042DE2E3219E968F00DCB8F8 /* KeepRemindingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DE2E2219E968F00DCB8F8 /* KeepRemindingAnimationView.m */; };
+		042DE2E6219E96A000DCB8F8 /* EnhancedInteractionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 042DE2E5219E96A000DCB8F8 /* EnhancedInteractionTextField.m */; };
+		049B3F6B219E9C5C008A0F2B /* SpecialInteractionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B3F6A219E9C5C008A0F2B /* SpecialInteractionManager.m */; };
+		AEF972BD018531576704EDC7 /* libPods-SITextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB5DF811378C47AD3F8B01C /* libPods-SITextField.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042DE2C3219E908900DCB8F8 /* SITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042DE2C6219E908900DCB8F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042DE2C7219E908900DCB8F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042DE2C9219E908900DCB8F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042DE2CA219E908900DCB8F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042DE2CF219E908C00DCB8F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042DE2D2219E908C00DCB8F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042DE2D4219E908C00DCB8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042DE2D5219E908C00DCB8F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042DE2DD219E90CE00DCB8F8 /* SpecialInteractionTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialInteractionTextField.h; sourceTree = "<group>"; };
+		042DE2DE219E90CE00DCB8F8 /* SpecialInteractionTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialInteractionTextField.m; sourceTree = "<group>"; };
+		042DE2E1219E968F00DCB8F8 /* KeepRemindingAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeepRemindingAnimationView.h; sourceTree = "<group>"; };
+		042DE2E2219E968F00DCB8F8 /* KeepRemindingAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepRemindingAnimationView.m; sourceTree = "<group>"; };
+		042DE2E4219E96A000DCB8F8 /* EnhancedInteractionTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnhancedInteractionTextField.h; sourceTree = "<group>"; };
+		042DE2E5219E96A000DCB8F8 /* EnhancedInteractionTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnhancedInteractionTextField.m; sourceTree = "<group>"; };
+		049B3F69219E9C5C008A0F2B /* SpecialInteractionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialInteractionManager.h; sourceTree = "<group>"; };
+		049B3F6A219E9C5C008A0F2B /* SpecialInteractionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialInteractionManager.m; sourceTree = "<group>"; };
+		1C33410E981FFD8060F0E65D /* Pods-SITextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-SITextField/Pods-SITextField.release.xcconfig"; sourceTree = "<group>"; };
+		CFB5DF811378C47AD3F8B01C /* libPods-SITextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SITextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3115D54EFB3D91B7F0ED2EF /* Pods-SITextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITextField/Pods-SITextField.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042DE2C0219E908900DCB8F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF972BD018531576704EDC7 /* libPods-SITextField.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042DE2BA219E908900DCB8F8 = {
+			isa = PBXGroup;
+			children = (
+				042DE2C5219E908900DCB8F8 /* SITextField */,
+				042DE2C4219E908900DCB8F8 /* Products */,
+				350476CD67D702633CEB6AAB /* Pods */,
+				E1ABE96BF227CB1B2829A6BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042DE2C4219E908900DCB8F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042DE2C3219E908900DCB8F8 /* SITextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042DE2C5219E908900DCB8F8 /* SITextField */ = {
+			isa = PBXGroup;
+			children = (
+				042DE2DC219E909A00DCB8F8 /* SpecialInteractionTextField */,
+				042DE2C6219E908900DCB8F8 /* AppDelegate.h */,
+				042DE2C7219E908900DCB8F8 /* AppDelegate.m */,
+				042DE2C9219E908900DCB8F8 /* ViewController.h */,
+				042DE2CA219E908900DCB8F8 /* ViewController.m */,
+				042DE2CF219E908C00DCB8F8 /* Assets.xcassets */,
+				042DE2D1219E908C00DCB8F8 /* LaunchScreen.storyboard */,
+				042DE2D4219E908C00DCB8F8 /* Info.plist */,
+				042DE2D5219E908C00DCB8F8 /* main.m */,
+			);
+			path = SITextField;
+			sourceTree = "<group>";
+		};
+		042DE2DC219E909A00DCB8F8 /* SpecialInteractionTextField */ = {
+			isa = PBXGroup;
+			children = (
+				042DE2E0219E966D00DCB8F8 /* subviews */,
+				042DE2DD219E90CE00DCB8F8 /* SpecialInteractionTextField.h */,
+				042DE2DE219E90CE00DCB8F8 /* SpecialInteractionTextField.m */,
+				049B3F69219E9C5C008A0F2B /* SpecialInteractionManager.h */,
+				049B3F6A219E9C5C008A0F2B /* SpecialInteractionManager.m */,
+			);
+			path = SpecialInteractionTextField;
+			sourceTree = "<group>";
+		};
+		042DE2E0219E966D00DCB8F8 /* subviews */ = {
+			isa = PBXGroup;
+			children = (
+				042DE2E1219E968F00DCB8F8 /* KeepRemindingAnimationView.h */,
+				042DE2E2219E968F00DCB8F8 /* KeepRemindingAnimationView.m */,
+				042DE2E4219E96A000DCB8F8 /* EnhancedInteractionTextField.h */,
+				042DE2E5219E96A000DCB8F8 /* EnhancedInteractionTextField.m */,
+			);
+			path = subviews;
+			sourceTree = "<group>";
+		};
+		350476CD67D702633CEB6AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3115D54EFB3D91B7F0ED2EF /* Pods-SITextField.debug.xcconfig */,
+				1C33410E981FFD8060F0E65D /* Pods-SITextField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1ABE96BF227CB1B2829A6BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB5DF811378C47AD3F8B01C /* libPods-SITextField.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042DE2C2219E908900DCB8F8 /* SITextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042DE2D9219E908C00DCB8F8 /* Build configuration list for PBXNativeTarget "SITextField" */;
+			buildPhases = (
+				32FEBEC424D43E5FDEEB5B16 /* [CP] Check Pods Manifest.lock */,
+				042DE2BF219E908900DCB8F8 /* Sources */,
+				042DE2C0219E908900DCB8F8 /* Frameworks */,
+				042DE2C1219E908900DCB8F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SITextField;
+			productName = SITextField;
+			productReference = 042DE2C3219E908900DCB8F8 /* SITextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042DE2BB219E908900DCB8F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sonia;
+				TargetAttributes = {
+					042DE2C2219E908900DCB8F8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 042DE2BE219E908900DCB8F8 /* Build configuration list for PBXProject "SITextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042DE2BA219E908900DCB8F8;
+			productRefGroup = 042DE2C4219E908900DCB8F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042DE2C2219E908900DCB8F8 /* SITextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042DE2C1219E908900DCB8F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DE2D3219E908C00DCB8F8 /* LaunchScreen.storyboard in Resources */,
+				042DE2D0219E908C00DCB8F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32FEBEC424D43E5FDEEB5B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SITextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042DE2BF219E908900DCB8F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DE2CB219E908900DCB8F8 /* ViewController.m in Sources */,
+				042DE2D6219E908C00DCB8F8 /* main.m in Sources */,
+				042DE2DF219E90CE00DCB8F8 /* SpecialInteractionTextField.m in Sources */,
+				042DE2C8219E908900DCB8F8 /* AppDelegate.m in Sources */,
+				049B3F6B219E9C5C008A0F2B /* SpecialInteractionManager.m in Sources */,
+				042DE2E6219E96A000DCB8F8 /* EnhancedInteractionTextField.m in Sources */,
+				042DE2E3219E968F00DCB8F8 /* KeepRemindingAnimationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042DE2D1219E908C00DCB8F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042DE2D2219E908C00DCB8F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042DE2D7219E908C00DCB8F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042DE2D8219E908C00DCB8F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042DE2DA219E908C00DCB8F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3115D54EFB3D91B7F0ED2EF /* Pods-SITextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SITextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyApplication.SITextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		042DE2DB219E908C00DCB8F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C33410E981FFD8060F0E65D /* Pods-SITextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SITextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyApplication.SITextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042DE2BE219E908900DCB8F8 /* Build configuration list for PBXProject "SITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DE2D7219E908C00DCB8F8 /* Debug */,
+				042DE2D8219E908C00DCB8F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042DE2D9219E908C00DCB8F8 /* Build configuration list for PBXNativeTarget "SITextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DE2DA219E908C00DCB8F8 /* Debug */,
+				042DE2DB219E908C00DCB8F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042DE2BB219E908900DCB8F8 /* Project object */;
+}
